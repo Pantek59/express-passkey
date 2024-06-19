@@ -1,0 +1,21 @@
+{
+  "name": "express-passkey",
+  "version": "0.0.1",
+  "description": "Wrapper around simpleWebAuthN to easier include it into my express-based applications.",
+  "module": "./dist/express-passkey.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@simplewebauthn/server": "^10.0.0",
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
